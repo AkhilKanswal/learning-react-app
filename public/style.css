@@ -68,8 +68,8 @@ main>img{
     list-style: 19px;
 }
 
-.main--facts>li::marker{
-    font-size: 1.4rem;
+li::marker{
+    font-size: 1.5rem;
     color: #61DAFB; 
 }
 
