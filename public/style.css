@@ -1,75 +1,37 @@
-*{
-    box-sizing: border-box;
-    font-family:sans-serif;
+/* body{
+    background-color: color-mix(in srgb, black  80%, gray 20% );
+    color: aquamarine;
+} */
 
-}
-
-body{
-    margin:0;
-    height: 100vh;
-    background-color: #282D35;
-
-}
-nav>img{
-    height:30px;
-    margin-right: 7px;
-}
-
-nav{
+.contact-card{
     display: flex;
-    align-items: center;
-    background-color: #21222A;
-    padding: 30px 25px;
-    height: 90px;
+    flex-direction: column;
+    box-shadow: 1px 2.98256px 7.4564px rgba(0,0,0,1.52);
+    padding:20px;
+    margin:20px;
+    border:2px;
+    border-radius: 5%;
+    max-width: fit-content;
+}
+.contact-card:hover{
+    box-shadow: 1.2px 2.98257px 7.4564px rgba(0,0,0,1.55);
+    padding:25px;
+    margin:22px;
+    border:22px;
+    border-radius: 5%;
+}
+img{
+    border-radius: 5%;
+    max-width: 200px;
+    background-color: color-mix(in srgb, gray 60%, black 40%);
 }
 
-.nav--logo-text,.nav--title{
-    margin:0;
+p{
+    font-size: 20px;
+    font-variant-emoji:text;
 }
 
-.nav--logo-text{
-    margin-right: auto;
-    color: #61DAFB;
-    font-weight: 700;
-    font-size: 22px;
+.DivBox{
+    display: flex;
+    flex-wrap: wrap;
 }
-.nav--title{
-    color: #DEEBF8;
-    font-weight: 600;
-
-}
-
-main{
-    padding: 57px 27px;
-    color: white;
-    background-image: url(./halfLogo.png);
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: 75%;
-
-}
-main>img{
-    mix-blend-mode: color-burn;
-}
-
-.main--title{
-    margin:0;
-    font-size:39px;
-    letter-spacing: -0.05em;
-}
-
-.main--facts{
-    margin-top:46px;
-    max-width: 400px;
-}
-
-.main--facts> li{
-    padding-block: 10px;
-    list-style: 19px;
-}
-
-li::marker{
-    font-size: 1.5rem;
-    color: #61DAFB; 
-}
-
